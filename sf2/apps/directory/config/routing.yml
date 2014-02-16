@@ -1,0 +1,5 @@
+afup_directory:
+    resource: "@AfupDirectoryBundle/Controller/"
+    type:     annotation
+    prefix:   /
+

@@ -1,0 +1,9 @@
+{% extends '::base.html.twig' %}
+
+{% block body %}
+    <p>Juste pour exemple, la liste des compagnies présentes dans l'annuaire :</p>
+
+    {% for company in companies %}
+      <p>{{ company.name }}</p>
+    {% endfor %}
+{% endblock %}

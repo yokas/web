@@ -1,9 +1,12 @@
 deps.lock
 .idea
+
 # OS X
 .DS_Store
+
 # Thumbnails
 ._*
+
 # Files that might appear on external disk
 .Spotlight-V100
 .Trashes
@@ -11,5 +14,22 @@ deps.lock
 .project
 .settings
 
+# AFUP’s cache and configuration files
 htdocs/cache
 configs/application/config.php
+
+# Symfony stuff
+sf2/apps/config/shared_parameters.yml
+/sf2/build/
+/vendor/
+/sf2/bin/
+/composer.phar
+
+# Annuaire stuff
+/sf2/apps/directory/bootstrap.php.cache
+/sf2/apps/directory/cache/*
+/sf2/apps/directory/config/parameters.yml
+/sf2/apps/directory/logs/*
+!sf2/apps/directory/cache/.gitkeep
+!sf2/apps/directory/logs/.gitkeep
+/htdocs/annuaire/bundles/
